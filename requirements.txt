@@ -1,0 +1,5 @@
+pydobot
+pyserial
+opencv-python
+numpy
+google-generativeai

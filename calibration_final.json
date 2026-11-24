@@ -1,0 +1,84 @@
+{
+  "camera_home_position": {
+    "x": 228.6,
+    "y": -9.4,
+    "z": 90.1,
+    "r": -2.4,
+    "description": "CRITICAL: All calibrations and maze captures must use this position"
+  },
+  "homography_calibration": {
+    "homography_matrix": [
+      [
+        -0.05153612410454936,
+        -0.3684955483595318,
+        371.03621328843843
+      ],
+      [
+        -0.33746664117248204,
+        0.029587856490794668,
+        82.70316874342718
+      ],
+      [
+        -9.847477401393428e-05,
+        -6.571558097078192e-05,
+        1.0
+      ]
+    ],
+    "reference_points": {
+      "red": {
+        "pixel": [
+          497,
+          402
+        ],
+        "robot": {
+          "x": 213.36679077148438,
+          "y": -79.0831069946289,
+          "z": -38.99747085571289
+        }
+      },
+      "yellow": {
+        "pixel": [
+          149,
+          417
+        ],
+        "robot": {
+          "x": 218.90538024902344,
+          "y": 46.72477340698242,
+          "z": -39.556053161621094
+        }
+      },
+      "green": {
+        "pixel": [
+          498,
+          69
+        ],
+        "robot": {
+          "x": 338.05633544921875,
+          "y": -88.02983856201172,
+          "z": -38.2337646484375
+        }
+      },
+      "blue": {
+        "pixel": [
+          152,
+          64
+        ],
+        "robot": {
+          "x": 346.2581481933594,
+          "y": 33.95287322998047,
+          "z": -34.61011505126953
+        }
+      }
+    },
+    "timestamp": "2025-10-31T15:54:35.954253"
+  },
+  "robot_axes": {
+    "+Y": "LEFT",
+    "-Y": "RIGHT",
+    "+X": "UP",
+    "-X": "DOWN",
+    "info": "Dobot Magician Lite"
+  },
+  "usage": "Use cv2.perspectiveTransform(pixel_array, H) to convert pixels to robot coords",
+  "hover_height": 30
+}
